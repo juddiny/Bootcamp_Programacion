@@ -12,5 +12,8 @@ altura= float(input("ALTURA : "))
 area= base * altura /2
 
 #4. salida con print
-
-print(area)
+print("\n\n")
+print("BASE ALTURA AREA")
+print('='*50)
+print(f"{base}\t{altura}\t{area}")
+print('='*50)
